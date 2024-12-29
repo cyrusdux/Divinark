@@ -26,10 +26,10 @@ const MobileNav = () => {
         <SheetContent side="left" className="border-none bg-dark-1">
           <Link href="/" className="flex items-center gap-1">
             <Image
-              src="/_Meetyok - Virtual meeting.jpeg"
+              src="/images/Divinark-logo.jpeg"
               width={50}
               height={50}
-              alt="yoom logo"
+              alt="Divinark-vc"
             />
             <p className="text-[26px] font-extrabold text-white">Divinark-VC</p>
           </Link>
