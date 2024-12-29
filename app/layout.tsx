@@ -11,10 +11,10 @@ import { Toaster } from "@/components/ui/toaster";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Divinark_Video confrence",
+  title: "Divinark_VC",
   description: "Video calling App",
   icons: {
-    icon: "/icons/logo.svg",
+    icon: "/images/Divinark-logo.jpeg",
   },
 };
 
@@ -27,7 +27,7 @@ export default function RootLayout({
         appearance={{
           layout: {
             socialButtonsVariant: "iconButton",
-            logoImageUrl: "\icons\Divinark-logo.jpeg",
+            logoImageUrl: "/icons/yoom-logo.svg",
           },
           variables: {
             colorText: "#fff",
